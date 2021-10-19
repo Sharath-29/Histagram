@@ -4,7 +4,7 @@
 
 body {
   margin: 0px;
-  font-family: 'segoe ui';
+  font-family: "segoe ui";
 }
 
 .nav {
@@ -50,7 +50,7 @@ body {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -63,7 +63,8 @@ body {
     height: 50px;
     padding: 13px;
   }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
   .nav > .nav-btn > label > span {
@@ -95,7 +96,12 @@ body {
     overflow-y: auto;
   }
 }
-.hista{
+.hista {
+  color: #eee;
+  text-decoration: none;
+}
+
+hista:hover {
   color: #eee;
   text-decoration: none;
 }
