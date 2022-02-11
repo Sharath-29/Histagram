@@ -137,3 +137,10 @@ import django_heroku
 
 django_heroku.settings(locals())
 
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
