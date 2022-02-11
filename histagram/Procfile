@@ -1,1 +1,1 @@
-web: gunicorn histagram.wsgi
+web: gunicorn app:app
